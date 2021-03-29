@@ -1,0 +1,21 @@
+{
+  "name": "tasoft/phpstorm-template",
+  "description": "A simple socket server written in pure PHP",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thomas Abplanalp",
+      "email": "info@tasoft.ch"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "TASoft\\Server\\" : "src"
+    }
+  },
+  "require" : {
+    "php": ">=7.3",
+    "ext-sockets": "*",
+	"ext-pcntl": "*"
+  }
+}
