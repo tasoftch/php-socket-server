@@ -1,5 +1,5 @@
 {
-  "name": "tasoft/phpstorm-template",
+  "name": "tasoft/socket-server",
   "description": "A simple socket server written in pure PHP",
   "license": "MIT",
   "authors": [
